@@ -2,6 +2,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   margin: 0;
+  line-height: 2;
 }
 hr{
   border: 0;
@@ -31,6 +32,7 @@ a{
 p{
   font-family: 'Montserrat', sans-serif;
   color: #1A3C40;
+  text-align: justify;
 }
 
 
@@ -72,21 +74,21 @@ p{
 
 }
 .profile{
-  width: 50%;
+  width: 30%;
   margin: auto auto
 }
 .skill-row{
-  width: 50%;
+  width: 30%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
 .contact-me{
-  width: 50%;
-  margin: auto auto
+  width: 30%;
+  margin: auto auto;
 }
-.div-contact{
-  margin-bottom: 5%;
+.content-msg{
+  margin: 5% auto 10%;
 }
 
 .btn {
@@ -98,10 +100,10 @@ p{
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
-  border-radius: 10px;
+  border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  margin: 2% auto auto;
+  margin: auto auto 5%;
   font-style: normal;
   font-weight: normal;
   padding: 10px 20px 10px 20px;
@@ -118,11 +120,10 @@ p{
   text-decoration: none;
 }
 .bottom-container{
-  padding-bottom: 0;
+  padding-bottom: 1%;
   position: relative;
   background-color: #66BFBF;
-  margin: 0;
-  height: 50%;
+  margin-top: 4%;
 }
 .footer-link{
   font-family: 'Montserrat', sans-serif;
@@ -132,9 +133,14 @@ p{
   margin: 1%;
 }
 .footer-div{
-  margin: 3% auto;
-  padding-top: 3%;
+  padding-top: 1.2%;
 }
+.footer-link:hover{
+  color:#EAF6F6
+}
+
 .footer-p{
   color: #EAF6F6;
+  text-align: center;
+  font-size: 0.75rem;
 }
